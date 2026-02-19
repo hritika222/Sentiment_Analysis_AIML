@@ -1,2 +1,3 @@
 # Sentiment_Analysis_AIML
 Sentiment Analysis for movie reviews.
+I have implemented RNN for text classification mainly for the sentiment analysis. The methodology has data preprocessing, model building, trainning and evaluation. The RNN architecture includes an embedding layer for word embedding, an LSTM layer for sequence encoding and dense classifier for sentiment classification. The data cleaning process remove unwanted characters that normalize text and lemmatization. It is then trained using binary cross entropy loss and the adam optimizer for specified number of epochs. Also, evaluation metrics include accuracy, and predication are made on unseen data to see the performance.
